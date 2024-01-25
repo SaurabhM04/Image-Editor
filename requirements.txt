@@ -1,0 +1,8 @@
+Make sure you have python installed on your local machine.
+
+import os
+from PIL import Image,ImageDraw,ImageFont
+from PIL.ImageFilter import (
+   BLUR, CONTOUR, DETAIL, EDGE_ENHANCE, EDGE_ENHANCE_MORE,
+   EMBOSS, FIND_EDGES, GaussianBlur, SMOOTH, SMOOTH_MORE, SHARPEN)
+
